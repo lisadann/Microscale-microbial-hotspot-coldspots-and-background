@@ -1,0 +1,30 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Working directory is /home/users/ldann/Ch61ul/HOTSPOTS/2014_9_9_080114LD16Sillumina_fasta-qual-mapping/fasta-qual-mapping-files/UPARSE
+Running on host tizard14
+Time is Mon Nov 16 12:32:16 CST 2015
+
+
+Resources Requested:
+=========================================
+mem=12gb
+neednodes=1:ppn=1
+nodes=1:ppn=1
+vmem=12gb
+walltime=50:00:00
+=========================================
+
+Resouces Used:
+=========================================
+cput=02:07:56
+mem=25248kb
+vmem=449496kb
+walltime=02:08:23 
+=========================================
+
+
+
+
+Exit Status : [0]
+
+

@@ -1,0 +1,24 @@
+OTUId	C7.3	E4.6	G8.5	C7.4	E4.1	E4.8	E4.3	E4.2	E4.4	C7.5	G8.1	G8.4	C7.2	E4.9	C7.1	E4.7	G8.3	E4.10	E4.5	G8.2	
+OTU_1;size=147834;k__Bacteria,p__Acidobacteria,c__Holophagae,o__Holophagales,f__Holophagaceae,g__Geothrix	8029	5629	11954	19542	12607	192	7238	6150	6131	7955	7403	11059	1608	8002	7155	13665	11529	11800	4748	5631	
+OTU_10;size=49690;k__Bacteria,p__Bacteroidetes,c__Sphingobacteria,o__Sphingobacteriales,f__Cytophagaceae,g__Flexibacter	1290	2082	2263	3855	683	50	1663	498	1508	5051	7216	4152	990	2920	4939	6510	5994	1663	1620	2463	
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						

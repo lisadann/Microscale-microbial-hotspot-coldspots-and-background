@@ -1,0 +1,37 @@
+#!/bin/csh
+
+#PBS -V
+
+### Job name
+#PBS -N fasta2fastq
+
+### Join queuing system output and error files into a single output file
+#PBS -j oe
+
+### Send email to user when job ends or aborts
+#PBS -m ae
+
+### email address for user
+##PBS -M Your-email-Address
+
+### Queue name that job is submitted to
+#PBS -q tizard
+
+### Request nodes NB THIS IS REQUIRED
+#PBS -l nodes=1:ppn=1
+#PBS -l mem=12gb,vmem=12gb
+#PBS -l walltime=50:00:00
+
+# This job's working directory
+echo Working directory is $PBS_O_WORKDIR
+cd $PBS_O_WORKDIR
+echo Running on host `hostname`
+echo Time is `date`
+
+#Load module(s) if required
+module load gnu/4.8.0 openmpi/gnu/1.6.4 java/java-1.6.0-openjdk
+module load Qiime/1.8.0
+
+# Run the executable
+convert_fastaqual_fastq.py -f 080114LD16Sillumina-full.fasta -q 080114LD16Sillumina-full.qual -o fastq_files/
+
